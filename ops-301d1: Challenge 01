@@ -1,0 +1,31 @@
+#!/bin/bash
+ 2
+ 3 #Script Name:Ops 301 chall02
+ 4 #Author:Bubacarr Darboe
+ 5 #Date of Last Revision:09/01/2020
+ 6 #Description of Purpose:copy /var/log/syslog to current working directory and append date and time
+ 7
+ 8 #Declaration of Variables
+ 9 year=`date +%Y`
+10 month=`date +%m`
+11 day=`date +%d`
+12 hour=`date +%H`
+13 minute=`date +%M`
+14 second=`date +%S`
+15 echo `date`
+16 echo "Current Date: $day-$month-$year"
+17 echo "Current Time: $hour:$minute:$second"
+18
+19 #Declaration of functions
+20 
+21 #Main
+22 
+23 cp /var/log/syslog dateandtime.txt
+24 
+25 # row append date and time to filename
+26 
+27 echo "$day-$month-$year $hour:$minute:$second" >> dateandtime.txt
+28 echo "Appended file:"
+29 cat dateandtime.txt
+30
+31 #End
