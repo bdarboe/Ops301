@@ -1,0 +1,21 @@
+ #!/bin/bash
+ #Script Name:Ops 301 chall03
+ #Author:Bubacarr Darboe
+ #Date of Last Revision:09/02/2020
+ #Description of Purpose:to give permission using chmod
+   
+ #Declaration of Variables
+ 
+ #Declaration of functions
+
+#Main
+read -p "directory to change permission for " directory
+ls -la
+
+read -p "please provide permission to give " permission
+sudo chmod -R $permission $directory
+
+#shows the change user needed
+sudo ls -la $directory
+
+#End
