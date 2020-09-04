@@ -1,3 +1,12 @@
 VPN Tunnelling
 
-Coming soon
+Although we live in a world where our online presence is almost synonymous to life itself, this comes with huge security concerns as we transfer data from endpoint to another. Since we cannot completely avoid getting online, measures should be taken to protect our data as we communicate and share resources. 
+
+VPN tunneling is the transportation of data, securely, usually by encryption from one point to another to avoid unauthorized eyes to makes sense of it. The data even when intercepted will not make sense to the unauthorized user. The data will then be unencrypted when it reaches it’s destination. 
+
+There are many services both open source and private commercial versions, but your selection depends on your needs such blocking sites and online streaming. All these activities on a VPN is to avoid any kind of surveillance by anyone who may be curious about your activities. Sometimes, however, you may want to route only sensitive day through the VPN and everything else goes through normal connection. 
+
+Users may want to know that there are different VPN protocols out there such as PPTP, L2TP, IPSec, SSTP, and Open VPN (SSL/TLS), but Open VPN came highly recommended. The choice is left to the user in relations to her security needs. Companies such NordVPN, EpressVPN, and CyberGhost are just a few who may provide users with their security needs. 
+
+In conclusion, VPNs can provide you with the security you need to stay anonymous online but it should not be the only solution for a completed security online. 
+
