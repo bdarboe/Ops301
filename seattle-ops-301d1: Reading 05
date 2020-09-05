@@ -1,0 +1,9 @@
+DNS – Domain Name Service
+
+DNS is the backbone of the internet as we know it today. In the early days of the internet, IP address were used to access a website because computers can only understand numbers. When DNS came into the picture, human could finally catch a break as it was really difficult to remember all the numbers attached to the available websites even though in the beginning they weren’t that many, imagine today. 
+
+DNS will take the IP addresses and attach them to names that humans can remember and store the information somewhere around the world on a global distribution system. DNS doesn’t store the world domain rather just the TLD which is the last two or three characters of the domain name. 
+
+Organizations such as Godaddy provide services for registering DNS and hosting as well. The process of domain name query goes through layers but it, however takes a very short period of time in the milliseconds to return and answer. DNS have surely made life easier on us. 
+
+Speaking of servers, a very popular and important server in the tech world is the Ubuntu server. Ubuntu server is an OS that serve up websites, file sharing, containers, and cloud. It operates on all major architectures thus making it a very versatile and multipurpose platform. To run Ubuntu, a user only needs 512MB of RAM, 1Ghz of processor speed, and 1 – 1.75GB of storage spaces. It is very light weight and benecial. 
