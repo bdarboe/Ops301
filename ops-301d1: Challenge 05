@@ -1,0 +1,23 @@
+#!/bin/bash
+#script: Ops 301 chall05
+#Author:Bubacarr Darboe
+#Date of latest revision: 09/04/2020
+#Purpose: to clear log files
+
+# variables
+#function
+#main
+
+#to show the file content of messages  and empty it.
+cat /var/log/messages 
+> /var/log/messages
+
+sudo echo $cat /var/log/messages  
+
+#view the content of wtmp and empty the content
+cat /var/log/wtmp
+> /var/log/wtmp 
+ 
+sudo echo $cat /var/log/wtmp
+
+#end
