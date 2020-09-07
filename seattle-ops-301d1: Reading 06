@@ -1,0 +1,5 @@
+Active Directory
+
+Active Directory is a software that operate on with the help of a server. It is defined as a directory that administrators used to manage and secure IT resources. The IT resources managed by active directory as users, networks, groups, applications etc. Active Directory (AD) can be used to automate processes could otherwise be difficult and painful to execute in a large enterprise environment. 
+
+AD is not some special software that is capable of executing tasks and processes that cannot be done locally, everything that is done in an active directory environment can be done on a few local endpoints. In large scale for example, if a process needs to be done on all endpoints, AD can simply be used replicate it easily and quickly. AD can also be used to create and manage users and users’ permission and allocate resources to the users. AD is vital in having a central point where all resources are managed and secured.
