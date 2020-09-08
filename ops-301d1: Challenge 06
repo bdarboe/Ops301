@@ -1,0 +1,19 @@
+#import the os library
+import os
+
+# to call any kind of bash command
+os.system("ls")
+
+# Declare variable
+findme = whoami
+listips = ip a
+reportgen = lshw -short
+
+# function
+
+# main
+print(findme)
+print(listips)
+print(reportgen)
+
+#end
