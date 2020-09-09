@@ -1,0 +1,20 @@
+#Script Name: Add User
+#Author: Bubacarr Darboe
+#Date of last revision: 09/09/2020
+#Description of purpose:To write a powershell script to add a user to ADAC
+#Declaration of variables
+#Declaration of functions
+
+function addUser(){
+  New-ADUser -Name "Franz Ferdinand" -GivenName "Franz" -Surname "Ferdinand" ` 
+  -Title "Reporting Lead" -Department "TPS" -City "Springfield" -State "OR" 
+  -Organization "Globex USA" `
+  -EmailAddress "ferdi@globexnuclear.com"
+  
+}
+
+#Main
+
+addUser
+
+#End
