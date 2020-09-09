@@ -1,0 +1,26 @@
+# Script Name: directory tree
+# Author: Bubacarr Darboe
+# Date of last revision: 09/08/2020
+# Description of purpose: To display directories and subdirectories
+
+# Import libraries
+
+import os
+
+# Declaration of variables
+userinput = input("Enter the directory you want to open ")
+
+#Display the files in the directory
+def directorycontents(userentry):
+    for (root, dirs, files) in os.walk(userinput):
+        #print the root directory
+        print(root)
+        #print the dir subdirectory
+        print(dirs)
+        #print the files
+        print(files)
+
+# Main
+ print(directorycontents)
+
+#End
