@@ -1,0 +1,18 @@
+Active Directory (AD)
+
+AD as it fondly referred to by technicians, is a set of five Windows services that run on the server to manage permissions and access to the network resources. 
+AD Domain Services (AD DS), AD Lightweight Directory Services (AD LDS), AD Federation Services (AD FS), AD Certificate Services (AD CS), 
+AD Rights Management Services (AD RMS) are the five services but AD DS is the most commonly used service of them all and it is mostly called AD. 
+
+AD DS stores information in a directory in the form of objects with attached attributes. AD enables administrators to create workgroups in small networking 
+environments but in large networking environments where hundreds or thousands of computers are used, a client-server system is used to enable endpoints to access 
+and share network resources. 
+
+Athough it may sometimes be referred to as a database due to it ability to store information, its read operation characteristics as oppose to write characteristics 
+made it an authentic directory. 
+
+In AD, an Organizational Unit (OU) is a structure that helps creating units within a domain. Sub OUs can be created within major OUs in order to create more 
+efficiency in the management of the domain to improve the organization’s bottom line. When designing OUs, answering some key questions will help in the 
+design process. 
+
+Taking all aspects of design will give us the benefit of managing objects efficiently and delegating administrative control to other users in other locations. 
