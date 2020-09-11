@@ -1,0 +1,24 @@
+ROUTING
+Routing – a process performed by devices in the layer 3 of the OSI model to deliver packets
+from one network to the other. 
+
+Routing has three types: Static, Default, and Dynamic. Each of the types has their advantages 
+and disadvantages and different types of configurations. For example, static routing has the 
+advantage of no bandwidth usage between routers, which can be very useful in a scenario 
+where bandwidth is needed for more important issues at a particular moment. However, 
+manually adding routes can be very difficult and time consuming for large companies.
+
+In default routing, one router may be configured to send packets to a single router, irrespective 
+of which network the packets belong. This will speed up the distribution process without having 
+to figure out where to send the packets. 
+
+In Dynamic routing, the ease to configure removes the complexity that other router comes with 
+making it difficult to troubleshoot as well. However, it consumes a lot of bandwidth in 
+communicating with others. 
+
+OSPF
+
+A link-state routing protocol where routers exchange topology information with the nearest 
+routers. The advantage to OSPF is that the routers are able to calculate routes to satisfy a 
+particular criteria due to the topology knowledge they possess. 
+ 
