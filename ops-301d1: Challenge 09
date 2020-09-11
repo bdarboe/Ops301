@@ -1,0 +1,19 @@
+#Script Name: Ops Chall09
+#Author:Bubacarr Darboe          
+#Date of last revision: 09/10/2020
+#Description of purpose: Python Collections
+
+#Make a list of ten items
+Animals = ["Sheep", "Goat", "Cow", "Lion", "Cheetah", "Leopard", "Elephant", "Baboon", "Buffalo", "Whale"]
+
+#Printing element number four 
+print(Animals[3])
+
+#Print elements six to ten 
+print(states[5:11])
+
+#Change the value of the seventh element to “onion”
+Animals[6] = "Onion"
+print(Animals)
+
+#End
