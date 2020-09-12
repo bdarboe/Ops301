@@ -2,25 +2,26 @@
 #Author: Bubacarr Darboe
 #Date of last revision: 09/11/2020
 #Description of purpose: Running conditional statement
+
 #Declaration of variables:
-a=3
-b=5
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+
 #Main
 
 #Compare the variables "a" and "b"
-if a == b:
-  print("a is equal to b")
+ if a == b:
+   print("a is equal to b")
  elif a != b:
-  print("a does not equal b")
-
+   print("a does not equal b")
+   
 #Compare the variables "a" and "b"
-If a < b:
+if a < b:
   print("a is less than b")
 elif a > b:
   print("a is greater than b")
 elif a <= b:
   print("a is less than or equal to b")
-else a >= b:
+else:
   print("a is greater than or equal to b")
-
 #End
