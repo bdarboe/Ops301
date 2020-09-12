@@ -1,0 +1,18 @@
+DMZ (Demilitarized Zone)
+
+DMZ is a setup in the network that has a very low security setup. Usually a firewall is placed 
+between the DMZ and the rest of the network to create an extra layer or two, if a second 
+firewall is involved, of security. 
+
+In setting up DMZs, web servers can be placed in the DMZ but sensitive parts of the system 
+such as mail servers that stores users login credentials and FTP(File Transfer Protocol) which 
+host critical contents on company sites. 
+
+To design a simple DMZ, a single firewall may be used but for a stronger or more secure 
+approach, two firewalls may be configured to create a formidable protection of the system and 
+keep intruders away. 
+
+A web server which can be used in a DMZ setup can be either a hardware or software. It is a 
+computer that runs web server software. Web servers enables internet users to access 
+webpages through HTTP (Hypertext Transfer Protocol) which is the less secure version of the 
+HTTPS where the S stands for secure.  
