@@ -10,7 +10,7 @@ Animals = ["Sheep", "Goat", "Cow", "Lion", "Cheetah", "Leopard", "Elephant", "Ba
 print(Animals[3])
 
 #Print elements six to ten 
-print(states[5:11])
+print(Animals[5:11])
 
 #Change the value of the seventh element to “onion”
 Animals[6] = "Onion"
