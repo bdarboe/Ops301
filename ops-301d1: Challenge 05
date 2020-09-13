@@ -21,3 +21,8 @@ cat /var/log/wtmp
 sudo echo $cat /var/log/wtmp
 
 #end
+
+#David's solution:
+cat /dev/null > syslog
+cat /dev/null > wtmp
+echo "Logs cleaned up."
