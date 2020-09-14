@@ -1,0 +1,31 @@
+                                                  Microsoft Azure
+
+Windows Azure formerly known as Microsoft Azure is a cloud computing environment such as Amazon 
+Web Services and Google. Cloud computing which has gain popularity in recent times, is not just a data 
+storage on some storage facilities in a remote area, but a collection of computers on which different 
+computing services run. 
+
+Instead of businesses and organizations spend a lot of money on file servers, email servers, web servers 
+and other services, they can simply pay for the exact amount of service they need on Microsoft Azure to 
+access these services. These eliminates waste in terms of purchasing more hardware than you need and 
+hiring IT personnel to main the hardware. 
+
+Microsoft Azure enables the user to run virtual machines in the cloud including a Linux desktop. 
+
+Azure Active Directory, Azure AD can run just like it runs on a Windows server in organizations to 
+manage and secure their systems. All these services makes it easy for organizations to host services and 
+develop applications. 
+
+                                                  IDENTITY MANAGEMENT
+                                                  
+Enabling users to access the system by providing some form of identification is part of the many security 
+measures that organizations take to protect information and data. By the use of Azure AD user 
+identification can be easily managed. Azure enables changes to be made to one part of the system for 
+example a change in one group can be applied to the rest of the groups. Azure AD also allows for a single
+sign-on – SS0. 
+
+In Azure, the use of separate identity source is recommended for third-party accounts to prevent direct 
+access to the system. 
+
+Azure AD makes securing the organization’s system easy for the support team and it is highly 
+recommended for organizations.
