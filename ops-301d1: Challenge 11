@@ -9,18 +9,22 @@ import os
 #Declaration of functions
 #Main
 
-file = open("ournewfile.txt", "a")
-file.write("The quick brown fox\n")
-file.write("jumps over the lazy people\n")
-file.write("The fox can jump over lazy dogs too!")
+def manipulate_a_file():
+  file = open("ournewfile.txt", "a")
+  file.write("The quick brown fox\n")
+  file.write("jumps over the lazy people\n")
+  file.write("The fox can jump over lazy dogs too!\n")
 
-file = open("ournewfile.txt", "r")
-print(file.readline())
-file.close()
+  file = open("ournewfile.txt", "r")
+  print(file.readline())
+  file.close()
 
-if os.path.exists("ournewfile.txt"):
-   print(os.remove("ournewfile.txt"))
-else:
-   print("This file doesn't exist")
+  if os.path.exists("ournewfile.txt"):
+    print(os.remove("ournewfile.txt"))
+  else:
+    print("This file doesn't exist")
+
+
+manipulate_a_file()
 
 #End
