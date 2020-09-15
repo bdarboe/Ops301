@@ -1,3 +1,25 @@
-Using file handling commands, create a Python script that creates 
-a new .txt file, appends three lines, prints to the screen the first line, 
-then deletes the .txt file.
+#Script Name
+#Author
+#Date of last revision
+#Description of purpose
+
+import os
+
+#Declaration of variables
+#Declaration of functions
+#Main
+
+file = open("ournewfile.txt", "a")
+file.write("The quick brown fox\n")
+file.write("jumps over the lazy people\n")
+file.write("The fox can jump over lazy dogs too!\n")
+
+file = open("ournewfile.txt", "r")
+print(file.readline())
+
+if os.path.exists("ournewfile.txt"):
+   print(os.remove("ournewfile.txt"))
+else:
+   print("This file doesn't exist")
+
+#End
