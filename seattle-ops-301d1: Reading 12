@@ -1,0 +1,31 @@
+DevOps
+
+It is the integration of development and operation to improve business processes. The primary 
+aim of DevOps is to achieve continuous improvement and continuous delivery to make 
+processes and operations faster and more resource friendly for organizations. In DevOps 
+there’s continuous testing to fulfilled the continuous improvement goal and deliver quality 
+software products. 
+
+In DevOps collaboration is key and teams aim at delivering high quality products no matter the 
+scarcity of resources. In the team everyone understands their roles and work together in a community. 
+DevOps embraces vagueness which business leaders have come to embrace themselves. There’s no specific 
+definition around DevOps for it to mimic the current business structures that most organizations operate on. 
+DevOps sees IT especially software and web development at the center of every business. 
+
+ DevOps seem to focus on continuous integration / improvement, continuous delivery, continuous testing, and continuous monitoring. 
+ These categories enables teams to focus on speed and customer satisfaction. The field of DevOps, 
+ although still new, may be around for a long time as it continues to improve business 
+ operations and help businesses achieve their bottom line. 
+
+IAC – Infrastructure as Code
+
+Traditionally, physical infrastructures have been at the core of our network and server needs. 
+When we need to make changes, we have to either deploy a VM or install a physical server to 
+connect users and distribute resources. However, with the advent of cloud services, the physical 
+deployment of servers are becoming a thing of the past. Servers can be deploy on a cloud 
+infrastructure within minutes and users can access the resource right away. Although this 
+seems to be done somewhere in space, the cloud system is actually a network of physical 
+structures hosted by organizations who have the ability to setup large datacenters to deploy these services. 
+
+Cloud gives DevOps Engineers the ability to automate process that would have otherwise been done 
+manually. Cloud makes enables organizations to save money by on paying for what they use and use what they pay for.  
