@@ -1,7 +1,7 @@
-#Script Name
-#Author
-#Date of last revision
-#Description of purpose
+#Script Name: ops301 challenge11
+#Author: Bubacarr Darboe   
+#Date of last revision: 09/14/2020
+#Description of purpose: File Handling
 
 import os
 
@@ -12,10 +12,11 @@ import os
 file = open("ournewfile.txt", "a")
 file.write("The quick brown fox\n")
 file.write("jumps over the lazy people\n")
-file.write("The fox can jump over lazy dogs too!\n")
+file.write("The fox can jump over lazy dogs too!")
 
 file = open("ournewfile.txt", "r")
 print(file.readline())
+file.close()
 
 if os.path.exists("ournewfile.txt"):
    print(os.remove("ournewfile.txt"))
