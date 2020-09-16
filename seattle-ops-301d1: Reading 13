@@ -1,0 +1,26 @@
+Patch Management
+
+As computer systems become part who we are and how we execute our daily tasks, the risk to be attacked 
+and be left disabled also presents itself. Software that run on our systems are not perfect and needs 
+to be improved periodically to improve performance and provide security to our systems. 
+
+Patch management is a software code used to improve an installed program or application. It’s like a 
+bandage to seal an opening or vulnerability in the application. Malware can be used by attackers to 
+penetrate systems that aren’t properly patched and gain access to valuable information. 
+
+Patches are usually categorized into three categories: feature patches which is mostly to 
+improve the performance and capability of the application, bug fix patches which fixes an 
+error that the application may have come with, and security patches that fixes a vulnerability in the application. 
+
+Patch management can be difficult if it has to be done manually especially in large organizations. 
+Automated patch management can be easily implement for patches to be deployed without interruption. 
+The benefits of automated patching are increased productivity since the patches may be monitored in the 
+IT department and patches will be deployed on time to avoid security breaches. Full compliance is 
+also attained with automated patch management to make sure all systems are up to date on their 
+patches, and your system will also be secured. 
+
+Although the patching itself is important, the right tools and procedures should be used before the 
+deployment of patches. 
+
+The WSUS server is used to acquire updates from Microsoft for distribution or patching to your system. 
+Organizations should have one WSUS that does the automation of patch management to improve and secure the system. 
