@@ -1,11 +1,45 @@
-Create a Python script that fetches this information using Psutil:
+import psutil
 
-Time spent by normal processes executing in user mode
-Time spent by processes executing in kernel mode
-Time when system was idle
-Time spent by priority processes executing in user mode
-Time spent waiting for I/O to complete.
-Time spent for servicing hardware interrupts
-Time spent for servicing software interrupts
-Time spent by other operating systems running in a virtualized environment
-Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
+# Script Name: CPU information
+# Author: Bubacarr Darboe
+# Date of last revision: 09/15/2020
+# Description of purpose: Extracting CPU information
+
+# Declaration of variables
+processorInfo = str(psutil.cpu_times())
+process_times = processorInfo.split(", ")
+
+# Declaration of functions
+
+# Main
+
+print(process_times, "\n")
+
+# Time spent by normal processes executing in user mode
+print (process_times[0], "\n")
+
+# Time spent by processes executing in kernel mode
+print (process_times[2], "\n")
+
+# Time when system was idle
+print (process_times[3], "\n")
+
+# Time spent by priority processes executing in user mode
+print (process_times[1], "\n")
+
+# Time spent waiting for I/O to complete.
+print (process_times[4], "\n")
+
+# Time spent for servicing hardware interrupts
+print (process_times[5], "\n")
+
+# Time spent for servicing software interrupts
+print (process_times[6], "\n")
+
+#Time spent by other operating systems running in a virtualized environment
+print (process_times[7], "\n")
+
+# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
+print (process_times[8], "\n")
+
+# End
