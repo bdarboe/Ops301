@@ -1,0 +1,29 @@
+import requests
+
+#Script Name: url info
+#Author: Bubacarr Darboe
+#Date of last revision: 09/16/2020
+#Description of purpose: check if request to url successful or not
+#Declaration of variables:
+url_request = input("Enter your destination url with 'https://' \n")
+method_request = input("Please select from the following method GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS: \n")
+
+#Declaration of function:
+
+#Main
+
+def urlstatus():
+  if url_request.status_code == 200:
+    print ("success!")
+  elif url_request.status_code == 404:
+    print ("Not found")
+
+if method_request == "GET":
+    print(url_request)
+print("Did you enter GET method? ")
+answer = input("")
+if answer == "yes":
+  urlstatus()
+elif answer == "no":
+  print("enter the GET method")
+  method_request = input("Please select from the following method GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS: \n")
