@@ -1,0 +1,2 @@
+SELECT EmailAddress, PasswordHash, PasswordSalt
+	FROM SalesLT.Customer
