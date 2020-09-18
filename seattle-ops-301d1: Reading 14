@@ -1,0 +1,19 @@
+                               Database 
+A database is a collection of data that are stored electronically on a storage device. 
+Databases makes it easy for support techs to easily manage data for easy storage and retrieval.
+Companies such as facebook need some sort of database management system to store the massive data collected 
+everyday. Online telephone directory is a database of phone numbers of people. 
+
+SQL is a database platform that enables support staff to store and manage data for proper usage. 
+SQL is a programming language used for handling relational databases. it can be used to search, 
+update, insert and delete database records. SQL can also be used to optimize and perform maintenance of databases.
+
+DBMS or Database Management Systems enables users to access database, manipulate data, reporting and representing data. 
+DBMS can help in controlling access to precious data and prevent it from the reach of unauthorized users. 
+DBMS comes in four types: Hierarchical which support parent-child relations, 
+Network DBMS supports many-to-many relations which is needed in complex database environments such as in network settings.
+RDBMS which is the most popular type of DBMS in the market does not support many-to-many relationship. Systems such as
+MySQL, Oracle, and Microsoft SQL Server database are examples of RDBMS.
+
+Another type of database system is NoSQL which simply means Not only SQL. It is used in companies that deal with large amount of
+data. NoSQL is a non-relational database that scale out better than relational databases that are best suited to work well with web applications. 
